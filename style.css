@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .active {
+    background-color: #000000;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+  }
